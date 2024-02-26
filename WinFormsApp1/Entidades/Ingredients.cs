@@ -15,6 +15,7 @@ namespace Programa_Dieta.Entidades
 
         public Ingredients(string ingredientName,double weight, bool listAdd=false)
         {
+            asdfasdf
             IngredientName = ingredientName;
             Weight = weight;
             ListAdd = listAdd;
