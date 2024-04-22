@@ -14,7 +14,7 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //TODO:Cambiar seleccionMenu a login al terminar
-            Application.Run(new SeleccionMenu());
+            Application.Run(new SeleccionMenuLunes());
         }
     }
 }
