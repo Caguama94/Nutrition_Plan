@@ -9,7 +9,7 @@ namespace Programa_Dieta.Constantes
 {
     public class FoodProvider
     {
-        public static Ingredients huevo = new Ingredients(Ingredients.ingredientes.Huevo, 3);
+        public static Ingredients huevo = new Ingredients(Ingredients.ingredientes.Huevo, 4);
         public static Ingredients chorizo = new Ingredients(Ingredients.ingredientes.Chorizo, 100);
         public static Ingredients jamon = new Ingredients(Ingredients.ingredientes.Jamon, 120);
         public static Ingredients quesoOaxaca = new Ingredients(Ingredients.ingredientes.QuesoOaxaca, 100);
@@ -17,10 +17,10 @@ namespace Programa_Dieta.Constantes
         public static Ingredients cebolla = new Ingredients(Ingredients.ingredientes.Cebolla, 130);
         public static Ingredients calabacita = new Ingredients(Ingredients.ingredientes.Calabacita, 250);
         public static Ingredients tortilla = new Ingredients(Ingredients.ingredientes.Tortilla, 100);
-        public static Ingredients salsaEnchiladas = new Ingredients(Ingredients.ingredientes.SalsaEnchiladas, 2);
+        public static Ingredients salsaEnchiladas = new Ingredients(Ingredients.ingredientes.SalsaEnchiladas, 1);
         public static Ingredients espinaca = new Ingredients(Ingredients.ingredientes.Espinaca, 60);
         public static Ingredients vampiro = new Ingredients(Ingredients.ingredientes.Vampiros, 350);
-        public static Ingredients atun = new Ingredients(Ingredients.ingredientes.Atun, 160);
+        public static Ingredients atun = new Ingredients(Ingredients.ingredientes.Atun, 1);
         public static Ingredients zanahoria = new Ingredients(Ingredients.ingredientes.Zanahoria, 200);
         public static Ingredients lechuga = new Ingredients(Ingredients.ingredientes.Lechuga, 50);
         public static Ingredients galletaSalada = new Ingredients(Ingredients.ingredientes.Galletas, 60);

@@ -34,20 +34,20 @@ namespace Programa_Dieta
             double totalSalsaEnchiladas = 0;
             double totalVampiros = 0;
             double totalAtun = 0;
-            double totalGalletas = 0;
+            double totalGalletasSaladas = 0;
             double totalMayonesa = 0;
             double totalPollo = 0;
-            double totalTostadas= 0;
-            double totalSalsaTinga= 0;
-            double totalBrocoli= 0;
-            double totalChicharos= 0;
-            double totalPimientoVerde= 0;
+            double totalTostadas = 0;
+            double totalSalsaTinga = 0;
+            double totalBrocoli = 0;
+            double totalChicharos = 0;
+            double totalPimientoVerde = 0;
             double totalArroz = 0;
-            double totalPan= 0;
-            double totalQuesoPanela= 0;
-            double totalCereal= 0;
-            double totalLeche= 0;
-            double totalManzana= 0;
+            double totalPan = 0;
+            double totalQuesoPanela = 0;
+            double totalCereal = 0;
+            double totalLeche = 0;
+            double totalManzana = 0;
 
             for (int i = 0; i < mealsPlan.MealList.Count; i++)
             {
@@ -110,7 +110,7 @@ namespace Programa_Dieta
                     }
                     else if (mealsPlan.MealList[i].MealIngredients[b].IngredientName == Ingredients.ingredientes.Galletas)
                     {
-                        totalGalletas = totalGalletas + FoodProvider.galletaSalada.Weight;
+                        totalGalletasSaladas = totalGalletasSaladas + FoodProvider.galletaSalada.Weight;
                     }
                     else if (mealsPlan.MealList[i].MealIngredients[b].IngredientName == Ingredients.ingredientes.Mayonesa)
                     {
@@ -168,6 +168,32 @@ namespace Programa_Dieta
 
             totalHuevoLabel.Text = $"{totalHuevo.ToString()} piezas";
             totalChorizoLabel.Text = $"{totalChorizo.ToString()} gramos ";
+            totalJamonLabel.Text = $"{totalJamon.ToString()} gramos";
+            totalQuesoOaxacaLabel.Text = $"{totalQuesoOaxaca.ToString()} gramos";
+            totalTomateLabel.Text = $"{totalTomate.ToString()} gramos";
+            totalCebollaLabel.Text = $"{totalCebolla.ToString()} gramos";
+            totalCalabacitaLabel.Text = $"{totalCalabacita.ToString()} gramos";
+            totalEspinacaLabel.Text = $"{totalEspinaca.ToString()} gramos";
+            totalZanahoriaLabel.Text = $"{totalZanahoria.ToString()} gramos";
+            totalLechugaLabel.Text = $"{totalLechuga.ToString()} gramos";
+            totalTortillaLabel.Text = $"{totalTortilla.ToString()} gramos";
+            totalSalsaEnchiladasLabel.Text = $"{totalSalsaEnchiladas.ToString()} latas";
+            totalVampirosLabel.Text = $"{totalVampiros.ToString()} gramos";
+            totalAtunLabel.Text = $"{totalAtun.ToString()} latas";
+            totalGalletasSaladasLabel.Text = $"{totalGalletasSaladas.ToString()} gramos";
+            totalMayonesaLabel.Text = $"{totalMayonesa.ToString()} gramos";
+            totalPolloLabel.Text = $"{totalPollo.ToString()} gramos";
+            totalTostadasLabel.Text = $"{totalTostadas.ToString()} gramos";
+            totalSalsaTingaLabel.Text = $"{totalSalsaTinga.ToString()} gramos";
+            totalBrocoliLabel.Text = $"{totalBrocoli.ToString()} gramos";
+            totalChicharosLabel.Text = $"{totalChicharos.ToString()} gramos";
+            totalPimientoVerdeLabel.Text = $"{totalPimientoVerde.ToString()} gramos";
+            totalArrozLabel.Text = $"{totalArroz.ToString()} gramos";
+            totalPanLabel.Text = $"{totalPan.ToString()} gramos";
+            totalQuesoPanelaLabel.Text = $"{totalQuesoPanela.ToString()} gramos";
+            totalCerealLabel.Text = $"{totalCereal.ToString()} gramos";
+            totalLecheLabel.Text= $"{totalLeche.ToString()} gramos";
+            totalManzanaLabel.Text = $"{totalManzana.ToString()} gramos";
 
         }
     }
