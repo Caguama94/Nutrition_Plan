@@ -9,16 +9,9 @@ namespace Programa_Dieta.Entidades
     public class MealPlan
     {
         public List<Meal> MealList { get; set; }
-        public bool IsConfirmed { get; set; }
-        public MealPlan(List<Meal> mealList, bool isConfirmed=false)
+        public MealPlan(List<Meal> mealList)
         {
             MealList = mealList;
-            IsConfirmed = isConfirmed;
-        }
-
-        public static bool ConfirmPlan()
-        {          
-            return true;
         }
     }
 }

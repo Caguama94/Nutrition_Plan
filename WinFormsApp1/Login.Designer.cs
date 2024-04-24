@@ -106,7 +106,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(688, 685);
+            ClientSize = new Size(642, 315);
             Controls.Add(loginWarningLabel);
             Controls.Add(passwordBox);
             Controls.Add(userBox);
