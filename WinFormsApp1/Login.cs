@@ -16,12 +16,12 @@ namespace WinFormsApp1
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            if (userBox.Text != Usuarios.UsuarioAdmin.username)
+            if (userBox.Text != Usuarios.UsuarioAdmin.Username)
             {
                 loginWarningLabel.Visible = true;
                 return;
             }
-            if (passwordBox.Text != Usuarios.UsuarioAdmin.password)
+            if (passwordBox.Text != Usuarios.UsuarioAdmin.Password)
             {
                 loginWarningLabel.Visible = true;
                 return;
@@ -36,7 +36,7 @@ namespace WinFormsApp1
             if (result == DialogResult.OK)
             {
                 this.Hide();
-                SeleccionMenu seleccionMenu = new SeleccionMenu();
+                SeleccionMenuLunes seleccionMenu = new SeleccionMenuLunes();
                 seleccionMenu.ShowDialog();
                 this.Close();
 

@@ -8,18 +8,44 @@ namespace Programa_Dieta.Entidades
 {
     public class Ingredients
     {
-
-        public string IngredientName { get; set; }
+        public enum ingredientes
+        {
+            Huevo,
+            Chorizo,
+            Jamon,
+            QuesoOaxaca,
+            Tomate,
+            Cebolla,
+            Calabacita,
+            Espinaca,
+            Zanahoria,
+            Lechuga,
+            Tortilla,
+            SalsaEnchiladas,
+            Vampiros,
+            Atun,
+            Galletas,
+            Mayonesa,
+            Pollo,
+            Tostadas,
+            SalsaTinga,
+            Brocoli,
+            Chicharos,
+            PimientoVerde,
+            Arroz,
+            Pan,
+            QuesoPanela,
+            Cereal,
+            Leche,
+            Manzana,
+        }
+        public ingredientes IngredientName { get; set; }
         public double Weight { get;set; }
-        public bool ListAdd { get; set; }
 
-        public Ingredients(string ingredientName,double weight, bool listAdd=false)
+        public Ingredients(ingredientes ingredientName,double weight)
         {         
             IngredientName = ingredientName;
             Weight = weight;
-            ListAdd = listAdd;
         }
-        public static bool AddToMeal() { return true; }
-
     }
 }
